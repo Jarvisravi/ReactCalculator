@@ -31,6 +31,10 @@ import {
 
 class Calculator extends Component {
 
+  constructor() {
+    super()
+  }
+
   onButtonPress(type, value) {
     console.log(`Calculator onButtonPress type = ${type}`);
     this.props.actionButtonPressed({type, value});
