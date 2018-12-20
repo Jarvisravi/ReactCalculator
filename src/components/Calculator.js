@@ -35,6 +35,10 @@ class Calculator extends Component {
     super()
   }
 
+  componentDidMount() {
+    
+  }
+
   onButtonPress(type, value) {
     console.log(`Calculator onButtonPress type = ${type}`);
     this.props.actionButtonPressed({type, value});
