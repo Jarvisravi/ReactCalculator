@@ -37,7 +37,7 @@ class Calculator extends Component {
 
   componentDidMount() {
     console.log('hello world demo');
-    console.log('hello world two');
+    console.log('hello world two 2 updated');
   }
 
   onButtonPress(type, value) {
