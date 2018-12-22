@@ -42,6 +42,7 @@ class Calculator extends Component {
     console.log('hello world 4')
     console.log('hello world 5')
     console.log('hello world 6')
+    console.log('hello world 7')
   }
 
   onButtonPress(type, value) {
